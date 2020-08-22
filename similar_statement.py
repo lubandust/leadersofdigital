@@ -58,5 +58,3 @@ for query, query_embedding in zip(queries, query_embeddings):
 
     for idx, distance in results[0:closest_n]:
         print(corpus[idx].strip(), "(Score: %.4f)" % (1-distance))
-
-
